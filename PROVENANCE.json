@@ -1,0 +1,14 @@
+{
+  "project_name": "倍速時光屋｜影音加速器",
+  "version_name": "0.11.1-zh-TW.1",
+  "upstream_release": "https://github.com/igrigorik/videospeed/releases/tag/v0.11.1",
+  "upstream_commit": "8f9bc13cd1d8bad549795da265735159d9e9fad1",
+  "license": "MIT",
+  "modifications": [
+    "independent per-player and per-tab playback rates",
+    "Traditional Chinese UI",
+    "macOS Liquid Glass controls",
+    "customizable A/D/S default shortcuts"
+  ],
+  "full_browser_E2E": "not passed in this environment; see VERIFICATION-zh-TW.md"
+}
