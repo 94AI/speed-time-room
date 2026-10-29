@@ -15,6 +15,10 @@
 
 ## 下載與安裝
 
+目前下載版本為 **0.11.3**（`0.11.3-zh-TW.1`），與 2026-10-28 提交 Chrome Web Store 審查的版本使用相同執行檔。本次移除最詳細診斷模式的原始按鍵記錄、將本版問題回報連至本專案，並補充隱私說明；既有獨立倍速與淺色玻璃介面保留。
+
+Chrome Web Store 已於 2026-10-28 送審，當日最後確認狀態為「待審查」。商店公開安裝入口待核准後補上，目前可使用下方 ZIP 手動安裝。
+
 **[下載「倍速時光屋.zip」](倍速時光屋.zip?raw=true)**
 
 1. 解壓縮 ZIP，保留裡面的「倍速時光屋」資料夾。
@@ -59,10 +63,6 @@
 
 使用者回報實測 Spotify 目前無法透過本擴充功能控制倍速；Spotify 音樂維持原站播放。其他服務需使用可存取且允許調速的 HTML5 media。DRM、封閉 shadow root、非 HTML5 播放管線或禁止注入的頁面，可能無法控制；Spotify 不列為目前支援的加速服務。網站建立全新播放器時，會使用網站原生速度或明確設定的網站起始倍速。
 
-## 原始碼與開發
-
-**[下載完整原始碼 ZIP](原始碼.zip?raw=true)**，解壓縮後進入 `speed-time-room` 資料夾。原始碼包內含完整 src、tests、建置設定、鎖定版本的相依套件清單與測試紀錄。
-
 ## 開發與驗證
 
 ```sh
@@ -74,10 +74,10 @@ npm run build
 
 開發時載入 `dist/`。Node.js 版本條件見 `package.json`。實際 Chrome 擴充功能回歸腳本可用 `npm run test:e2e:private` 執行。
 
-單元／整合測試共 44 個檔案、544 項通過。完整瀏覽器測試受本機執行環境限制，尚未取得通過結果；驗證細節見 [測試報告](VERIFICATION-zh-TW.md)。
+單元／整合測試共 44 個檔案、546 項通過，包含 2 項按鍵診斷隱私回歸測試。完整瀏覽器測試受本機執行環境限制，尚未取得通過結果；驗證細節見 [測試報告](VERIFICATION-zh-TW.md)。
 
 ## 授權與原始專案
 
 感謝 [Ilya Grigorik 與原專案貢獻者](https://github.com/igrigorik/videospeed)。本專案是獨立修改版，並非原專案的官方發行版本，保留原作者著作權聲明與完整 [MIT License](LICENSE)。原始專案說明見 [README-UPSTREAM.md](README-UPSTREAM.md)。
 
-公開版識別：`0.11.1-zh-TW.2`。上游基底 commit：`8f9bc13cd1d8bad549795da265735159d9e9fad1`。
+公開版識別：`0.11.3-zh-TW.1`。上游基底 commit：`8f9bc13cd1d8bad549795da265735159d9e9fad1`。

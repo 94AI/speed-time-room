@@ -1,11 +1,22 @@
 {
   "project_name": "倍速時光屋｜影音加速器",
-  "version_name": "0.11.1-zh-TW.2",
+  "version_name": "0.11.3-zh-TW.1",
   "upstream_release": "https://github.com/igrigorik/videospeed/releases/tag/v0.11.1",
   "upstream_commit": "8f9bc13cd1d8bad549795da265735159d9e9fad1",
   "license": "MIT",
   "theme": "fixed light Liquid Glass toolbar popup",
   "preferred_speed_default": 1,
   "spotify": "user reported playback rate control unavailable; Spotify music uses native playback",
-  "full_browser_E2E": "not passed in this environment; UI preview uses Chrome API substitute"
+  "full_browser_E2E": "not passed in this environment; UI preview uses Chrome API substitute",
+  "version": "0.11.3",
+  "tests": {
+    "files": 44,
+    "passed": 546
+  },
+  "store_submission": {
+    "date": "2026-10-28",
+    "last_verified_status": "pending review on 2026-10-28",
+    "runtime_archive_sha256": "236c84e15d8169d100cc7574c4e6482e2d27b8abec52c3d6dff446d32e1c4c11"
+  },
+  "raw_keyboard_diagnostic_logging": "removed"
 }
