@@ -4,6 +4,8 @@
 
 ## 安裝或更新
 
+先[開啟最新版安裝包下載頁](https://github.com/94AI/speed-time-room/blob/main/倍速時光屋.zip)，再按檔案工具列右側的 **↓「Download raw file」** 下載 `倍速時光屋.zip`。若從舊的直接下載連結看到 404，請改用這個下載頁與下載按鈕。
+
 1. 解壓縮 `倍速時光屋.zip`。
 2. 開啟 `chrome://extensions`，啟用「開發人員模式」。
 3. 按「載入未封裝項目」，選擇內含 manifest.json 的 `倍速時光屋` 資料夾。
