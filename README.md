@@ -19,7 +19,7 @@
 
 Chrome Web Store 已於 2026-10-28 送審，當日最後確認狀態為「待審查」。商店公開安裝入口待核准後補上，目前可使用下方 ZIP 手動安裝。
 
-**[開啟安裝包下載頁：倍速時光屋.zip](https://github.com/94AI/speed-time-room/blob/main/倍速時光屋.zip)**
+**[開啟安裝包下載頁：倍速時光屋.zip](https://github.com/94AI/speed-time-room/blob/e8208ed7eccdfa37e3e069d9524d80b186f84659/倍速時光屋.zip)**
 
 開啟後，按檔案工具列右側的 **↓「Download raw file」** 下載 ZIP。一般安裝只需要這份安裝包。
 
@@ -71,7 +71,7 @@ Chrome Web Store 已於 2026-10-28 送審，當日最後確認狀態為「待審
 
 ## 原始碼與開發
 
-**[開啟原始碼下載頁：原始碼.zip](https://github.com/94AI/speed-time-room/blob/main/原始碼.zip)**，再按檔案工具列右側的 **↓「Download raw file」** 下載。
+**[開啟原始碼下載頁：原始碼.zip](https://github.com/94AI/speed-time-room/blob/e8208ed7eccdfa37e3e069d9524d80b186f84659/原始碼.zip)**，再按檔案工具列右側的 **↓「Download raw file」** 下載。
 
 解壓縮後進入 `speed-time-room` 資料夾。內含 0.11.3 的完整程式、546 項測試、建置設定、鎖定版本的相依套件清單與驗證紀錄，可供其他電腦或雲端環境接續開發。
 
